@@ -11,7 +11,7 @@ for i in range(len(train_data)):
     sentence = train_data.loc[i, "Text"]
     training_sentences.append(sentence)
 
-model = load_model("./static/assets/model/Customer_Review_Text_Emotion.h5")
+model = load_model("./static/assets/model/Text_Emotion.h5")
 
 vocab_size = 40000
 max_length = 100
